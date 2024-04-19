@@ -1,0 +1,11 @@
+.title {
+    @apply font-bold text-2xl text-gray-700;
+}
+
+.navbar {
+    @apply flex justify-between p-6 border-2 border-gray-300;
+}
+
+.categories {
+    @apply flex space-x-8 mr-10 text-gray-700 font-semibold text-sm;
+}

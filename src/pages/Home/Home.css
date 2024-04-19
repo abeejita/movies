@@ -1,0 +1,15 @@
+.background {
+    @apply bg-gray-100;
+}
+
+.category {
+    @apply font-semibold text-gray-800 text-3xl py-4 px-6;
+}
+
+.movies {
+    @apply flex overflow-x-scroll px-4 space-x-4;
+}
+
+.movie {
+    @apply flex-none snap-start size-1/5;
+}
