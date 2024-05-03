@@ -6,7 +6,9 @@ const PrivateRouter = () => {
     return (
         <div>
             <Header/>
-            <Outlet/>
+            <div className="m-10">
+                <Outlet/>
+            </div>
         </div>
     )
 }

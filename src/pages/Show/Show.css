@@ -1,0 +1,59 @@
+.show-details {
+  @apply relative pt-3;
+}
+
+.show-container {
+    @apply w-full px-4 mx-auto;
+}
+
+.show-row {
+    @apply flex mx--4;
+}
+
+.show-image {
+    @apply relative px-4;
+}
+
+.show-image-thumbnail {
+    @apply relative overflow-hidden w-auto min-w-min;
+}
+
+.show-title {
+    @apply flex items-center justify-between my-8 font-bold text-5xl z-10 uppercase;
+}
+
+.show-info {
+    @apply min-w-min;
+}
+
+.show-stats {
+    @apply mb-6 block;
+}
+
+.show-stat {
+    @apply text-base text-left mr-4 pr-4 leading-3 inline-block font-medium;
+}
+
+.show-svg {
+    @apply inline-block w-6 mr-2;
+}
+
+.show-little-stat {
+    @apply inline-block;
+}
+
+.show-description {
+    @apply my-3 w-full text-sm font-normal leading-6;
+}
+
+.show-more-info {
+    @apply w-full inline-block mb-5;
+}
+
+.show-block {
+    @apply float-left mr-6;
+}
+
+.show-block-text {
+    @apply text-xl font-bold mb-2;
+}

@@ -6,7 +6,7 @@ export interface IMovieCard {
     /**
      * The genre ID of the movie
      */
-    genreId: number;
+    genreId?: number;
     /**
      * The ID of the movie
      */
@@ -14,7 +14,7 @@ export interface IMovieCard {
     /**
      * The average vote of the movie
      */
-    voteAverage: number;
+    voteAverage?: number;
     /**
      * The path to the poster of the movie
      */

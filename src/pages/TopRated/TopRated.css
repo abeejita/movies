@@ -1,0 +1,15 @@
+.movies-table {
+    @apply grid grid-cols-4 ml-4 mt-4;
+}
+
+.movie-element {
+    @apply size-full;
+}
+
+.category {
+    @apply font-semibold text-gray-800 text-3xl py-4 px-6;
+}
+
+.content {
+    @apply bg-gray-100;
+}

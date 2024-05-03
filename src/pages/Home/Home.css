@@ -7,9 +7,9 @@
 }
 
 .movies {
-    @apply flex overflow-x-scroll px-4 space-x-4;
+    @apply relative leading-6 flex overflow-x-auto snap-mandatory snap-x mx-6;
 }
 
-.movie {
-    @apply flex-none snap-start size-1/5;
+.individual-movie {
+    @apply flex-none snap-start w-1/5;
 }

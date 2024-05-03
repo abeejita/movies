@@ -1,31 +1,35 @@
 .poster-box {
-    @apply rounded-lg overflow-hidden shadow-2xl bg-white relative z-0;
+    @apply overflow-hidden transition-all ease-in-out hover:-translate-y-1 hover:scale-110 duration-300;
 }
 
 .movie-box {
-    @apply relative inset-y-0 z-0;
+    @apply relative float-left overflow-hidden shadow-2xl rounded-lg scroll-smooth mr-5 mb-7 block;
 }
 
 .movie-titles {
-    @apply text-white text-lg font-bold w-max absolute inset-y-7;
-}
-
-.movie-genre {
-    @apply text-white text-base text-center font-bold;
+    @apply text-white block text-lg font-bold leading-4 mt-3;
 }
 
 .genre-box {
-    @apply bg-red-500 border-solid border-amber-300 rounded-md h-min w-max size-1/12 py-0.5 px-2 absolute z-20;
+    @apply bg-red-500 text-white p-2 text-xs font-medium leading-3 mb-5 table rounded-md;
 }
 
 .movie-grading {
-    @apply text-white text-base font-bold w-max absolute inset-y-14;
+    @apply mr-3 mt-4 text-white text-sm font-medium uppercase inline-block;
 }
 
 .text-box {
-    @apply pl-1 absolute bottom-1/4 z-20;
+    @apply px-2 py-4 table-cell w-full align-middle;
 }
 
-.info-box {
-    @apply z-10;
+.info-show {
+    @apply absolute rounded-lg bottom-0 left-0 w-full opacity-100 bg-gradient-to-t from-indigo-950;
+}
+
+.show-svg {
+    @apply inline-block w-4 mr-2;
+}
+
+.show-movie-pair {
+    @apply inline-block;
 }
